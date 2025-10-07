@@ -96,16 +96,16 @@
     
     <form action="/data">
       <h3 text-align:"centre"> FILL YOUR DETAILS </h3>
-        <lable for="first name"> First Name: </lable> 
+        <label for="first name"> First Name: </lable> 
         <input type="text" id="name" required="enter name" placeholder="enter your first name"> <br> <br>
-        <lable for="last name">Last Name</lable>
+        <label for="last name">Last Name</lable>
         <input type="text" id="name" required="enter name" placeholder="enter your last name"> <br> <br>
-        <lable for="password">PASSWORD: </lable>
+        <label for="password">PASSWORD: </lable>
         <input type="PASSWORD" placeholder="enter your password"> <br> <br>
-        <lable for="age" > AGE: </lable>
+        <label for="age" > AGE: </lable>
         <input type="number" placeholder="enter your age" required> <br> <br>
         EMAIL: <input type="email" placeholder="enter your mail" required> <br> <br>
-        <lable for="gender"> Gender: </lable>
+        <label for="gender"> Gender: </lable>
         <input type="radio" NAME="GENDER"> MALE 
         <input type="radio" NAME="GENDER" > FEMALE
         <input type="radio" NAME="GENDER" > others <br> <br>
