@@ -52,6 +52,7 @@ Key Additions and Improvements
 ---
 
 Files in Repository
+
 LAB1/labassignment1(html) : use of html only to create a portfolio website
 LAB2/labassignment1(CSS) : use of css to style the "labassignment1(html)"
 
