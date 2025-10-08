@@ -44,16 +44,20 @@
       <h2>Technical Skills</h2>
       <table border="1" cellpadding="4"cellspacing="3">
         <tr>
-          <th> Python </th>
-          <th> Begginer </th>
+          <th> Skill</th>
+          <th> Level </th>
         </tr>
         <tr>
-          <th> CSS </th>
-          <th> Begginer </th>
+          <td> Python </td>
+          <td> Learning </td>
         </tr>
         <tr>
-          <th> HTML </th>
-          <th> Begginer </th>
+          <td> CSS </td>
+          <td> Begginer </td>
+        </tr>
+        <tr>
+          <td> HTML </td>
+          <td> Begginer </td>
         </tr>
         
       </table>
@@ -132,6 +136,7 @@
 
   <footer>
     <p>©️ MEHAK25 | All rights reserved.</p>
+    <a href=#top> BACK TO TOP </a>
   </footer>
 
 </body>
