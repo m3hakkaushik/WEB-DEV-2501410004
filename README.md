@@ -8,6 +8,13 @@ Course: Programming for Problem Solving using Python
 
 ## THE FINAL OUTPUT :
 
+<img width="614" height="734" alt="Screenshot 2025-10-08 at 4 52 46 PM" src="https://github.com/user-attachments/assets/52164e17-ae34-4ab8-b489-d9c0da7dfbad" />
+<img width="535" height="427" alt="Screenshot 2025-10-08 at 4 53 02 PM" src="https://github.com/user-attachments/assets/ba343531-7386-493c-9649-7839fc79b799" />
+
+
+
+
+
 
 ## LAB-ASSIGNMENT-1-HTML
 Project Overview
