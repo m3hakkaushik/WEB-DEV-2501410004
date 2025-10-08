@@ -8,10 +8,15 @@ Course: Programming for Problem Solving using Python
 
 ## THE FINAL OUTPUT :
 # LAB ASSIGNMENT 1 :
-OUTPUT: <img width="360" height="651" alt="Screenshot 2025-10-08 at 5 25 27 PM" src="https://github.com/user-attachments/assets/31688410-cd9b-4f35-bc79-f0ac4c8a5dfc" />
+OUTPUT:
+![QWER](https://github.com/user-attachments/assets/2e7873a4-160e-48f6-8d56-ce71c4d54be2)
+![QWER 2](https://github.com/user-attachments/assets/8606ede9-2edd-4a84-b4c4-1fb950069069)
+
+
 
 # LAB ASSIGNMENT 2 :
-OUTPUT: ![My Profile](https://github.com/user-attachments/assets/636510d2-4962-46a8-ae2c-f9ca0b1df255)
+OUTPUT: 
+![My Profile](https://github.com/user-attachments/assets/636510d2-4962-46a8-ae2c-f9ca0b1df255)
 ![FILL YOUR DETAILS](https://github.com/user-attachments/assets/1d6ae21a-af2f-4768-982d-3e28f58cce7e)
 
 
