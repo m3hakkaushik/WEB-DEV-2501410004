@@ -65,4 +65,24 @@
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba(188, 222, 245, 0.862);
     }
+    table{
+      border-collapse:collapse;
+      border-spacing:20px;
+      width:25%;
+      margin: 2px 0;
+      margin-left: auto;
+      margin-right: auto;
+      border-color: aliceblue;
+
+    }
+    .body {
+      font-family: 'google-font', Arial, sans-serif; 
+    }
+    .pacifico-regular {
+      font-family: "Pacifico", cursive;
+      font-weight: 400; 
+      font-style: normal;
+    }
     
+
+
