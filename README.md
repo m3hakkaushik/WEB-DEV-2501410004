@@ -7,9 +7,15 @@ Course: Programming for Problem Solving using Python
 ---
 
 ## THE FINAL OUTPUT :
+# LAB ASSIGNMENT 1 :
+OUTPUT: <img width="360" height="651" alt="Screenshot 2025-10-08 at 5 25 27 PM" src="https://github.com/user-attachments/assets/31688410-cd9b-4f35-bc79-f0ac4c8a5dfc" />
 
-<img width="614" height="734" alt="Screenshot 2025-10-08 at 4 52 46 PM" src="https://github.com/user-attachments/assets/52164e17-ae34-4ab8-b489-d9c0da7dfbad" />
-<img width="535" height="427" alt="Screenshot 2025-10-08 at 4 53 02 PM" src="https://github.com/user-attachments/assets/ba343531-7386-493c-9649-7839fc79b799" />
+# LAB ASSIGNMENT 2 :
+OUTPUT: <img width="331" height="737" alt="Screenshot 2025-10-08 at 5 26 28 PM" src="https://github.com/user-attachments/assets/fc27584e-ac64-4cab-8de1-3a008965fc23" />
+
+
+
+
 
 
 
