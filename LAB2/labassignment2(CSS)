@@ -72,12 +72,12 @@
 
     <section id="projects">
       <h2>Projects</h2>
-      <article>
+      <article class="project">
         <h3>Portfolio</h3>
         <p>A portfolio site in html to describe about me , my skills, projects and contact me information. This simple yet structural portfolio is helping me boost my confidence in web designing.</p>
 
       </article>
-      <article>
+      <article class="project">
         <h3>The Daily Calorie Tracker</h3>
         <p>A basic calculator built with PYTHON. The Daily Calorie Tracker is a simple Python-based CLI (Command Line Interface) tool that helps students and users track their daily calorie intake. Users can: 
         <p> 1. Log meals and their calorie values.</p>
