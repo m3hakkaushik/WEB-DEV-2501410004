@@ -18,7 +18,7 @@
   </header>
 
   <nav>
-    <a href="#about">About</a>
+    <a href="#about">About</a> 
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
@@ -29,14 +29,14 @@
     <section id="about">
       <h2>About Me</h2>
       <img SRC="Profile_pic.jpeg" alt="my_profile_pic" title="Profile Pic" class="center"/>
-      <p>Hello! I’m Mehak, 18 years old and currently a 1st year student pursuing at KR Mangalam university. I love creating aesthetic, simple and elegant websites using HTML, CSS and PYTHON. Although I am just starting and have no prior experience or knowledge, I am eager to learn and grow in this field.
+      <p class="pacifico-regular">Hello! I’m Mehak, 18 years old and currently a 1st year student pursuing at KR Mangalam university. I love creating aesthetic, simple and elegant websites using HTML, CSS and PYTHON. Although I am just starting and have no prior experience or knowledge, I am eager to learn and grow in this field.
       </p>
     </section>
 
     <section id="skills">
       <h2>Skills</h2>
-      <table border="auto" cellpadding="4" cellspacing="3"  max-width="100">
-        <tr>
+      <table border="1" cellpadding="4" cellspacing="3"  >
+        <tr class="th">
           <th> Skill</th>
           <th> Level </th>
         </tr>
@@ -59,6 +59,7 @@
         <li>Empathy and Emotional Intelligence</li>
         <li>Collaboration and Teamwork</li>
         <li>Prioritization and Time Management</li>
+        <li>Adaptability and Patience</li>
       </ul>
     </section>
 
@@ -69,7 +70,7 @@
         <p>A portfolio site in html to describe about me , my skills, projects and contact me information. This simple yet structural portfolio is helping me boost my confidence in web designing.</p>
 
       </article>
-      <article class="project">
+      <article class="project" >
         <h3>The Daily Calorie Tracker</h3>
         <p>A basic calculator built with PYTHON. The Daily Calorie Tracker is a simple Python-based CLI (Command Line Interface) tool that helps students and users track their daily calorie intake. Users can: 
         <p> 1. Log meals and their calorie values.</p>
@@ -89,6 +90,7 @@
 
     
     <form action="/data">
+      <br>
       <h3 text-align:"centre"> FILL YOUR DETAILS </h3>
         <label for="first name"> First Name: </label> 
         <input type="text" id="name" required="enter name" placeholder="enter your first name"> <br> <br>
@@ -104,21 +106,20 @@
         <input type="radio" NAME="GENDER" > FEMALE
         <input type="radio" NAME="GENDER" > others <br> <br>
         <br>
-        <br>
         <section>
           <article style="color:black"> <h3> MESSAGE :</h3>
-        <textarea ROW="300" COLS="100" placeholder:"MESSAGE"> </textarea>
+        <textarea ROW="30" COLS="100" placeholder:"MESSAGE"> </textarea>
           </article>
         </section>
         <br>
-        <br> <br>
         FILE: 
         <input type="file" > <br>
         <br>
         <br>
+        <input style="background-color: rgb(137, 175, 241); color: azure;" type="submit" value="Submit"> 
+        <input style="background-color: rgb(137, 175, 241); color: azure;" type="reset" value="Reset">
         <br>
-        <input style="background-color: rgb(238, 65, 229); color: azure;" type="submit" value="Submit"> 
-        <input style="background-color: rgba(243, 160, 215, 0.84); color: azure;" type="reset" value="Reset">
+        <br>
     </form>
 
 
@@ -127,12 +128,9 @@
   <footer>
     <p>©️ MEHAK25 | All rights reserved.</p>
     <a href=#top> BACK TO TOP </a>
-    <main>
-      <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:m3hakaushik@google.com">m3hakaushik@google.com</a></p>
+      <section id="contact"> 
+        <p> Contact Email: <a href="mailto:m3hakaushik@google.com">m3hakaushik@google.com</a></p>
       </section>
-    </main>
   </footer>
 
 </body>
