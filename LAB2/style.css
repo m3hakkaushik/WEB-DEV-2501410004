@@ -57,3 +57,11 @@
       border-radius:50% ;
       ;
     }
+    .project {
+      width: 60%;
+      margin: 15px auto;
+      padding: 15px;
+      background-color: rgba(188, 222, 245, 0.862);
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(188, 222, 245, 0.862);
+    }
