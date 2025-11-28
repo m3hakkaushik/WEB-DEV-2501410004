@@ -46,6 +46,12 @@ It also encourages user interaction and feedback, which are essential for improv
 
 ---
 
+Files in Repository
+
+LAB1/labassignment1(html) : use of only html to run on local host
+LAB1/Profile_pic.jpeg : Profile pic 
+
+---
 LEARNING OUTCOME
 
 1. Logical Thinking
@@ -57,5 +63,5 @@ LEARNING OUTCOME
 
 HOW TO OPEN 
 
-~ open these LAB1 files in one folder and run them.
+~ open these LAB1 (e.g labassignment1(html), Profile_pic.jpeg) files in one folder and run them.
 
