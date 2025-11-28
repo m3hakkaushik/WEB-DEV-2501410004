@@ -1,4 +1,4 @@
-<img width="1467" height="876" alt="Screenshot 2025-11-29 at 12 45 39 AM" src="https://github.com/user-attachments/assets/0845d6e8-aeb7-4999-a789-ffa735ef26d5" /># Mehak's JavaScript Quiz Game
+# Mehak's JavaScript Quiz Game
 
 ## Project Title & Theme
 Mehak's JavaScript Quiz Game – a simple console-based quiz that asks general knowledge questions using JavaScript prompts and alerts.
