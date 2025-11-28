@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mehak | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!---------------------- Header ---------------------->
+  <header id="top">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">Mehak</div>
+        <nav>
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!---------------------- Hero Section ---------------------->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="greeting">Hello, I'm Mehak 👋</p>
+          <h1>I build simple, elegant web experiences.</h1>
+          <div class="title">I'm a Full Stack Developer</div>
+          <p class="subtitle">1st year CSE student at KR Mangalam University, learning HTML, CSS and Python one step at a time.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="Profile_pic.jpeg" alt="Profile picture of Mehak" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22%3E%3Ccircle cx=%22150%22 cy=%22150%22 r=%22150%22 fill=%22%236B7280%22/%3E%3Ccircle cx=%22150%22 cy=%22130%22 r=%2250%22 fill=%22%23fff%22/%3E%3Cpath d=%22M100 220 Q100 180 150 180 Q200 180 200 220 Z%22 fill=%22%23fff%22/%3E%3C/svg%3E'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------- About Section ---------------------->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">Turning curiosity into clean, simple code.</p>
+      <div class="about-content">
+        <p>I'm Mehak, 18, a 1st year student at KR Mangalam University. I enjoy building minimal and user-friendly websites with basic web tools.</p>
+        <p>Currently, I'm learning core web concepts and working on small projects to better understand front-end and back-end principles.</p>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------- Skills Section ---------------------->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-subtitle">A mix of technical and personal strengths.</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>HTML &amp; Semantic Structure – Beginner</li>
+            <li>CSS, Flexbox &amp; Grid – Beginner</li>
+            <li>Python Programming – Learning</li>
+            <li>Basic CLI Programs (Calorie Tracker)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Non-Technical Skills</h3>
+          <ul>
+            <li>Empathy &amp; Emotional Intelligence</li>
+            <li>Collaboration &amp; Teamwork</li>
+            <li>Time Management</li>
+            <li>Adaptability</li>
+            <li>Willingness to Learn</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------- Projects Section ---------------------->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">Learning by doing, one step at a time.</p>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive site built to showcase my skills and projects.</p>
+          <p>This project helped me understand layout, color, and navigation basics.</p>
+          <span class="project-tags">HTML · CSS · Responsive</span>
+        </article>
+
+        <article class="project-card">
+          <h3>Gradebook Analyser</h3>
+          <p>Determine pass/fail status for students.</p>
+          <p>Display a formatted report card with names, marks, and grades.</p>
+          <span class="project-tags">PYTHON · CSV</span>
+        </article>
+
+        <article class="project-card">
+          <h3>Daily Calorie Tracker (CLI)</h3>
+          <p>A simple Python program to log and calculate daily calorie intake.</p>
+          <ul>
+            <li>Calorie limits and warnings</li>
+            <li>Session logs saved to file</li>
+          </ul>
+          <span class="project-tags">Python · CLI</span>
+        </article>
+
+        <article class="project-card">
+          <h3>Landing Page Practice</h3>
+          <p>Simple landing page built for practicing layout and typography.</p>
+          <span class="project-tags">HTML · CSS · Flexbox · Grid</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------- Contact Section ---------------------->
+  <section class="contact" id="contact" align="center">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">Say hello or share feedback.</p>
+      <div class="contact-wrapper" align="center" >
+        <div class="contact-info"  align="center" >
+          <p>
+            I am happy that you contacted him. I hope you had great time exploring my portfolio and if that intrests you....You can reach me at 
+            <a href="mailto:m3hakaushik@google.com">m3hakaushik@google.com</a>.</p>
+        </div>
+
+        <form class="contact-form" action="/data" method="post" novalidate >
+          <h3>Fill Your Details</h3>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" placeholder="Your first name" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" placeholder="Your last name" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email" required>
+            </div>
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input type="number" id="age" name="age" placeholder="Your age" required min="1" max="120">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Gender</label>
+            <div class="radio-group">
+              <label><input type="radio" name="gender" value="male" required> Male</label>
+              <label><input type="radio" name="gender" value="female"> Female</label>
+              <label><input type="radio" name="gender" value="other"> Other</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message here"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="file">Attach File (optional)</label>
+            <input type="file" id="file" name="file">
+          </div>
+
+          <div class="form-buttons">
+            <button type="submit" class="btn-submit">Submit</button>
+            <button type="reset" class="btn-reset">Reset</button>
+          </div>
+        </form>
+      </div>
+      
+    </div>
+  </section>
+
+  <!---------------------- Footer ---------------------->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>© 2025 Mehak | All rights reserved.</p>
+        <a href="#top" aria-label="Back to top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
