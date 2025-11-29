@@ -4,11 +4,11 @@ Theme: Modern fashion e-commerce site featuring Black Friday promotions, product
 
 ## THE FINAL OUTPUT :
 
-<img width="1464" height="874" alt="Screenshot 2025-11-29 at 12 58 22 AM" src="https://github.com/user-attachments/assets/bb8c162b-b3ec-4d33-aee0-32aa81741f10" />
-<img width="1462" height="626" alt="Screenshot 2025-11-29 at 1 02 41 AM" src="https://github.com/user-attachments/assets/feac6963-25fe-4fea-82a8-c27a0bacb3e1" />
+<img width="1470" height="878" alt="Screenshot 2025-11-29 at 4 39 14 PM" src="https://github.com/user-attachments/assets/5d06c8df-5c73-479b-856d-844b7702fbb3" />
 
-<img width="1117" height="737" alt="Screenshot 2025-11-29 at 1 02 49 AM" src="https://github.com/user-attachments/assets/66f94236-e501-4aa3-8138-bef94ddae45b" />
-<img width="1470" height="559" alt="Screenshot 2025-11-29 at 1 02 56 AM" src="https://github.com/user-attachments/assets/5c28137a-9332-42c1-a112-a7d39f488802" />
+<img width="1470" height="768" alt="Screenshot 2025-11-29 at 4 39 26 PM" src="https://github.com/user-attachments/assets/29a8e096-499d-48b4-b43d-eac2733d929a" />
+
+<img width="1470" height="782" alt="Screenshot 2025-11-29 at 4 39 53 PM" src="https://github.com/user-attachments/assets/e48d7007-1909-4640-9a34-874f39854fb7" />
 
 
 ## Sections Implemented
