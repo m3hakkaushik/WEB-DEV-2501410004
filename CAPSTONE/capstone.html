@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Fashion E-Commerce Landing Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="capstyle.css">
+
+</head>
+<body>
+    <!-- Sticky Navbar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <span class="logo">FASHIONSTA</span>
+            <div class="nav-search">
+                <input type="text" placeholder="Search for products...">
+            </div>
+        </div>
+
+        <div class="hamburger" id="hamburger">☰</div>
+        <div class="nav-right" id="navMenu">
+            <a href="#" class="nav-icon" title="Cart">🛒</a>
+            <a href="#" class="nav-icon" title="Login">👤</a>
+            <a href="#" class="nav-login">Login</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Black Friday Sale is Here! BABYYYYYY</h1>
+            <p class="hero-desc">Up to 50% off on selected styles. Refresh your wardrobe with the latest trends.</p>
+            <button class="hero-cta">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Flash Sale Strip -->
+    <div class="flash-sale">
+        <span>⚡ Flash Sale: Extra 20% OFF! Ends in</span>
+        <div class="countdown" id="countdown">
+            <span id="hours">02</span>:
+            <span id="minutes">15</span>:
+            <span id="seconds">42</span>
+        </div>
+    </div>
+
+    <!-- Main Content Layout -->
+    <div class="main-content">
+        <!-- Filters Sidebar -->
+        <aside class="sidebar">
+            <h3>Filters</h3>
+            <div class="filter-group">
+                <strong>Category</strong>
+                <label><input type="checkbox"> Skorts</label>
+                <label><input type="checkbox"> Leggings</label>
+                <label><input type="checkbox"> Hoodies</label>
+                <label><input type="checkbox"> Sweaters</label>
+                <label><input type="checkbox"> Jumpsuits</label>
+                <label><input type="checkbox"> Crop Tops</label>
+
+            </div>
+            <div class="filter-group">
+                <strong>Price</strong>
+                <label><input type="checkbox"> Under Rs. 2500</label>
+                <label><input type="checkbox"> Rs. 2500 - Rs. 5000</label>
+                <label><input type="checkbox"> Rs. 5000+</label>
+            </div>
+            <div class="filter-group">
+                <strong>Color</strong>
+                <label><input type="checkbox"> Black</label>
+                <label><input type="checkbox"> White</label>
+                <label><input type="checkbox"> Blue</label>
+                <label><input type="checkbox"> Little Sage</label>
+                <label><input type="checkbox"> Green</label>
+                <label><input type="checkbox"> Purple</label>
+                <label><input type="checkbox"> Mint</label>
+            </div>
+        </aside>
+
+        <!-- Main Section -->
+        <main class="main-section">
+            <!-- Featured Categories -->
+            <section>
+                <div class="categories">
+                    <!-- Skorts -->
+                    <div class="category-card">
+                        <img src="skorts.png" alt="Skorts">
+                        <div class="category-title">Skorts</div>
+                    </div>
+                    <!-- Leggings -->
+                    <div class="category-card">
+                        <img src="leggings.png" alt="Leggings">
+                        <div class="category-title">Leggings</div>
+                    </div>
+                    <!-- Hoodies -->
+                    <div class="category-card">
+                        <img src="hoodies.png" alt="Hoodies">
+                        <div class="category-title">Hoodies</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product Grid -->
+            <section>
+                <div class="product-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <img src="Product 1.png" alt="Product 1">
+                        <div class="product-title">Half Zip Warm Up Hoodie</div>
+                        <div class="product-price">Rs. 7000.00</div>
+                        <button class="product-btn">Add to Cart</button>
+                    </div>
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <img src="Product 2.png" alt="Product 2">
+                        <div class="product-title">Crisscross Hourglass Sklegging</div>
+                        <div class="product-price">Rs. 3000.00</div>
+                        <button class="product-btn">Add to Cart</button>
+                    </div>
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <img src="Product 3.png" alt="Product 3">
+                        <div class="product-title">Hiking Superskort</div>
+                        <div class="product-price">Rs. 3000.00</div>
+                        <button class="product-btn">Add to Cart</button>
+                    </div>
+                    <!-- Product Card 4 -->
+                    <div class="product-card">
+                        <img src="Product 4.png" alt="Product 4">
+                        <div class="product-title">Seamless Shortsie</div>
+                        <div class="product-price">Rs. 2200.00</div>
+                        <button class="product-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Best Seller Section -->
+            <section class="best-seller-section">
+                <div class="best-seller-title">Best Sellers</div>
+                <div class="best-seller-grid">
+                    <!-- Best Seller 1 -->
+                    <div class="product-card">
+                        <img src="Best Seller 1.png" alt="Best Seller 1">
+                        <div class="product-title">Pirouette Babydoll Dress - Black</div>
+                        <div class="product-price">Rs. 8,600.00</div>
+                        <button class="product-btn">Add to Cart</button>
+                    </div>
+                    <!-- Best Seller 2 -->
+                    <div class="product-card">
+                        <img src="Best Seller 2.png" alt="Best Seller 2">
+                        <div class="product-title">Celeste Mesh Crop Bralette - Ivory</div>
+                        <div class="product-price">Rs. 3,600.00</div>
+                        <button class="product-btn">Add to Cart</button>
+                    </div>
+                    <!-- Best Seller 3 -->
+                    <div class="product-card">
+                        <img src="Best Seller 3.png" alt="Best Seller 3">
+                        <div class="product-title">Ooey Gooey Crop Half Zip - Light Sage</div>
+                        <div class="product-price">Rs. 6,600.00</div>
+                        <button class="product-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="testimonials">
+                <div class="testimonials-title">What Our Customers Say</div>
+                <div class="testimonial-list">
+                    <div class="testimonial-card">
+                        <img class="testimonial-avatar" src="Customer 1.png" alt="Customer 1">
+                        <div class="testimonial-name">Savana S.</div>
+                        <div class="testimonial-text">"Absolutely love the quality and fast shipping! My new favorite store."</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <img class="testimonial-avatar" src="Customer 2.png" alt="Customer 2">
+                        <div class="testimonial-name">Agrima M.</div>
+                        <div class="testimonial-text">"Great selection and amazing deals. The flash sale was a steal!"</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <img class="testimonial-avatar" src="Customer 3.png" alt="Customer 3">
+                        <div class="testimonial-name">Khusboo K.</div>
+                        <div class="testimonial-text">"Customer service was super helpful. Will definitely shop again."</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter Signup -->
+            <section class="newsletter">
+                <div class="newsletter-title">Stay in the Loop!</div>
+                <div class="newsletter-desc">Sign up for exclusive offers, new arrivals, and more.</div>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-col">
+            <div class="footer-title">Account</div>
+            <ul class="footer-list">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Order History</a></li>
+                <li><a href="#">Wishlist</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <div class="footer-title">Help</div>
+            <ul class="footer-list">
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <div class="footer-title">Policies</div>
+            <ul class="footer-list">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <div class="footer-title">Follow Us</div>
+            <div class="footer-socials">
+                <a href="#" title="Instagram">📸</a>
+                <a href="#" title="Facebook">📘</a>
+                <a href="#" title="Twitter">🐦</a>
+                <a href="#" title="Pinterest">📌</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Fashionista. All rights reserved.
+        </div>
+    </footer>
+
+ 
+</body>
+</html>
